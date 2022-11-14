@@ -1,6 +1,6 @@
 table {
     border-collapse: collapse;
-    margin: 15px 0;
+    float: left;
 }
 
 td, th {
@@ -12,4 +12,23 @@ th {
 }
 #coffees {
     font-weight: bold;
+}
+
+#roast {
+    display: none;
+}
+
+p {
+    display: inline-block;
+    font-weight: normal;
+    color: dimgrey;
+    text-indent: 10px;
+}
+h3 {
+    display: inline;
+}
+input {
+    color: white;
+    background-color: dodgerblue;
+    border: none;
 }

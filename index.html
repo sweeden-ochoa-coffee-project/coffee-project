@@ -10,7 +10,7 @@
     <div class="container row justify-content-center mx-auto">
     <h1 class="text-center col-12 mx auto p-5">Coffee!</h1>
     <form class="col mx-auto p-3">
-        <h3 class="pb-3">Roast</h3>
+        <h2 class="pb-3">Roast</h2>
         <label for="roast-selection"></label>
         <select id="roast-selection">
             <option>light</option>
@@ -24,9 +24,11 @@
             </div>
             <input id="submit" type="submit" />
             <i class="fas fa-search"></i>
-            </button>
         </div>
     </form>
+            <div class="card-columns" id="coffees">
+            </div>
+        </div>
     <table>
         <thead>
             <tr>
@@ -35,7 +37,8 @@
                 <th>ROAST</th>
             </tr>
         </thead>
-        <tbody id="coffees" style="display: flex; flex-direction: column-reverse"></tbody>
+        <tbody id="coffees">
+        </tbody>
     </table>
     <script src="main.js"></script>
     </div>
