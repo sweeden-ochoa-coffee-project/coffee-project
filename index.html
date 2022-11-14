@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-    <h1>Coffee!</h1>
-
-    <form>
+    <div class="container row justify-content-center mx-auto">
+    <h1 class="text-center col-12 mx auto p-5">Coffee!</h1>
+    <form class="col mx-auto p-3">
+        <h3 class="pb-3">Roast</h3>
         <label for="roast-selection"></label>
         <select id="roast-selection">
             <option>light</option>
             <option>medium</option>
             <option>dark</option>
         </select>
-        <input id="submit" type="submit" />
+        <div class="input-group">
+            <div class="container row justify-content-left mx-auto">
+                <input type="search" id="form1" class="form-control" />
+                <label class="form-label" for="form1">Search</label>
+            </div>
+            <input id="submit" type="submit" />
+            <i class="fas fa-search"></i>
+            </button>
+        </div>
     </form>
-
     <table>
         <thead>
             <tr>
@@ -26,9 +35,9 @@
                 <th>ROAST</th>
             </tr>
         </thead>
-        <tbody id="coffees"></tbody>
+        <tbody id="coffees" style="display: flex; flex-direction: column-reverse"></tbody>
     </table>
-
     <script src="main.js"></script>
+    </div>
 </body>
 </html>

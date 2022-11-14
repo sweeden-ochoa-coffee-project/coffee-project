@@ -4,6 +4,12 @@ table {
 }
 
 td, th {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     padding: 5px 10px;
+}
+th {
+    color: transparent;
+}
+#coffees {
+    font-weight: bold;
 }
