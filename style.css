@@ -29,6 +29,12 @@ h3 {
 }
 input {
     color: white;
-    background-color: dodgerblue;
+    background-color: seagreen;
     border: none;
+}
+
+body {
+    font-family: "Stardos Stencil";
+    font-style: normal;
+    font-weight: bold;
 }
