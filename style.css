@@ -81,3 +81,15 @@ img {
 .container {
     font-family: "Lobster Two", cursive;
 }
+.input-group {
+    padding-top: 40px;
+    justify-content: center;
+}
+.btn-primary {
+    margin-block: auto;
+}
+
+a {
+    display: flex;
+    position: center;
+}
