@@ -29,7 +29,7 @@ function updateCoffees(e) {
     tbody.innerHTML = renderCoffees(filteredCoffees);
 }
 
-// fix this
+
 function searchCoffees(e) {
     e.preventDefault();
     var selectedRoast = roastSelection.value;
